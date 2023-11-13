@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mononoke.3D - Presupuesto</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mononoke.3D</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Menu principal</a></li>
+                <li><a href="presupuesto.html">Quiero hacer un presupuesto</a></li>
+                <li><a href="catalogo.html">Ver catálogo</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Obtene tu presupuesto</h2>
+        <p>Para obtener un presupuesto necesito los siguientes datos:</p>
+        
+        <!-- Formulario para seleccionar una imagen -->
+        <div>
+            <label for="imagen">Agrega una imagen de referencia:</label>
+            <input type="file" id="imagen" name="imagen" accept="image/*">
+        </div>
+        
+        <!-- div sirve para hacer "enter" entre los elementos -->
+
+        <div>
+            <label for="tamanoImpresion">Indica el tamaño aproximado de impresión que deseas (altura):</label>
+            <input type="text" id="tamanoImpresion" name="tamanoImpresion">
+        </div>
+
+        <div>
+            <label for="formaContacto">Forma de contacto de referencia:</label>
+            <select id="formaContacto" name="formaContacto">
+                <option value="whatsapp">WhatsApp</option>
+                <option value="instagram">Instagram</option>
+                <option value="mail">Mail</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="contacto">Contacto:</label>
+            <input type="text" id="contacto" name="contacto">
+        </div>
+
+        <div>
+            <label for="quieroMasDeUno">¿Quiero más de uno?</label>
+            <input type="checkbox" id="quieroMasDeUno" name="quieroMasDeUno">
+        </div>
+
+        <div style="display: none;" id="cantidadContainer">
+            <label for="cantidad">Cantidad:</label>
+            <input type="text" id="cantidad" name="cantidad">
+        </div>
+    </main>
+    <footer>
+        <p>¿Te gusta lo que ves?</p>
+        <p>Sígueme en Instagram: @Mononoke.3D</p>
+    </footer>
+</body>
+</html>

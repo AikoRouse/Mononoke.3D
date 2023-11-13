@@ -1,0 +1,52 @@
+body, header, footer{
+    font-family: "Arial Black", Arial, sans-serif;
+    height: 200px; 
+    color: #fff; 
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    background-image: url('footer.jpg'); 
+    background-size:cover; 
+    background-repeat: no-repeat;
+    padding: 10px;
+    max-width: 100%;
+}
+
+header {
+    background-image: url('fondo.jpg'); 
+    background-size: cover;
+    background-position: center center;
+    text-align: left;
+
+}
+
+body {
+    background-image: url('background.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    text-align: left;
+}
+
+.catalogo-item {
+    width: 30%; 
+    margin: 1%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #0000008c; 
+    padding: 10px;
+}
+
+.catalogo-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.catalogo-item p {
+    margin: 5px;
+}
